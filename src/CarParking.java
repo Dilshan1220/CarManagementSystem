@@ -5,6 +5,7 @@ public class CarParking {
         Scanner sc = new Scanner(System.in);
         Parking pa = new Parking();
         int choice;
+
         int car = 0, bike = 0, van = 0;//vehicle value
         while (true) {
             System.out.println("Press 1 to enter car");
